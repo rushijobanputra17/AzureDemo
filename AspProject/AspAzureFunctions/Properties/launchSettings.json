@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "AspAzureFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7024",
+      "environmentVariables": {
+        "devtest11": "343"
+      }
+    }
+  }
+}

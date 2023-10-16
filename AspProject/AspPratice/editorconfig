@@ -1,0 +1,86 @@
+#jeshal coding standard
+# Enforce camelCase for variable names
+[*.{cs,vb,cshtml,vbhtml}]
+# For variables
+dotnet_naming_symbols.local_symbol.applicable_kinds = local
+dotnet_naming_style.local_style.capitalization = camel_case
+dotnet_naming_rule.variables_are_camel_case.severity = error
+dotnet_naming_rule.variables_are_camel_case.symbols = local_symbol
+dotnet_naming_rule.variables_are_camel_case.style = local_style
+
+# for parameters
+dotnet_naming_symbols.parameter_symbol.applicable_kinds = parameter
+dotnet_naming_style.parameter_style.capitalization = camel_case
+dotnet_naming_rule.parameters_are_camel_case.severity = error
+dotnet_naming_rule.parameters_are_camel_case.symbols = parameter_symbol
+dotnet_naming_rule.parameters_are_camel_case.style = local_style
+# CS0219: Variable is assigned but its value is never used
+dotnet_diagnostic.CS0219.severity = error
+# 
+
+# prefix_interface_interface_with_i - Interfaces must be PascalCase and the first character of an interface must be an 'I'
+root = true
+
+# Enforce camelCase for variable names
+[*.{cs,vb,cshtml,vbhtml}]
+# For variables
+dotnet_naming_symbols.local_symbol.applicable_kinds = local
+dotnet_naming_style.local_style.capitalization = camel_case
+dotnet_naming_rule.variables_are_camel_case.severity = error
+dotnet_naming_rule.variables_are_camel_case.symbols = local_symbol
+dotnet_naming_rule.variables_are_camel_case.style = local_style
+
+# for parameters
+dotnet_naming_symbols.parameter_symbol.applicable_kinds = parameter
+dotnet_naming_style.parameter_style.capitalization = camel_case
+dotnet_naming_rule.parameters_are_camel_case.severity = error
+dotnet_naming_rule.parameters_are_camel_case.symbols = parameter_symbol
+dotnet_naming_rule.parameters_are_camel_case.style = parameter_style
+# CS0219: Variable is assigned but its value is never used
+dotnet_diagnostic.CS0219.severity = error
+# prefix_interface_interface_with_i - Interfaces must be PascalCase and the first character of an interface must be an 'I'
+
+
+[*.{cs,vb}]
+
+# Naming rules definitions interface
+dotnet_naming_rule.interfacesPascalWithI.symbols = interfaces
+dotnet_naming_rule.interfacespascalwithi.style = IP
+dotnet_naming_rule.interfacespascalwithi.severity = error
+# Style Definitions
+dotnet_naming_style.IP.capitalization = pascal_case
+dotnet_naming_style.IP.required_prefix = I
+# Symbols Definitions
+dotnet_naming_symbols.interfaces.applicable_kinds = interface
+dotnet_naming_symbols.interfaces.applicable_accessibilities = *
+
+# method name must be PascalCase
+dotnet_naming_style.method_style.capitalization = pascal_case
+dotnet_naming_rule.method_should_be_pascal_case.severity = error
+dotnet_naming_rule.method_should_be_pascal_case.symbols = method
+dotnet_naming_rule.method_should_be_pascal_case.style = method_style
+
+
+# CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+dotnet_diagnostic.CS8618.severity = none
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = error
+
+# IDE0008: Use explicit type 
+dotnet_diagnostic.IDE0008.severity = silent
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = none
+
+# IDE0090: Use 'new(...)'
+dotnet_diagnostic.IDE0090.severity = none
+#end coding standard by jeshal
+
+#missing cases to switch statement 
+dotnet_diagnostic.IDE0010.severity = error
+# String.IsNullOrEmpty
+dotnet_diagnostic.CA1820.severity = error
+
+#end jeshal coding standard
+

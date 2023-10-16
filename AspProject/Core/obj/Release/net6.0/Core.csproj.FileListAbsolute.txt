@@ -1,0 +1,12 @@
+D:\backup-project\AspProject\Core\bin\Release\net6.0\Core.deps.json
+D:\backup-project\AspProject\Core\bin\Release\net6.0\Core.dll
+D:\backup-project\AspProject\Core\bin\Release\net6.0\Core.pdb
+D:\backup-project\AspProject\Core\obj\Release\net6.0\Core.csproj.AssemblyReference.cache
+D:\backup-project\AspProject\Core\obj\Release\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\backup-project\AspProject\Core\obj\Release\net6.0\Core.AssemblyInfoInputs.cache
+D:\backup-project\AspProject\Core\obj\Release\net6.0\Core.AssemblyInfo.cs
+D:\backup-project\AspProject\Core\obj\Release\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\backup-project\AspProject\Core\obj\Release\net6.0\Core.dll
+D:\backup-project\AspProject\Core\obj\Release\net6.0\refint\Core.dll
+D:\backup-project\AspProject\Core\obj\Release\net6.0\Core.pdb
+D:\backup-project\AspProject\Core\obj\Release\net6.0\ref\Core.dll
